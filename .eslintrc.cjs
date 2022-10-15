@@ -3,7 +3,8 @@ module.exports = {
     node: true,
     es2021: true
   },
-  extends: 'standard',
+  plugins: ['sonar'],
+  extends: ['standard','plugin:sonar/recommended'],
   overrides: [
   ],
   parserOptions: {
