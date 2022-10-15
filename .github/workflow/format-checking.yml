@@ -1,5 +1,5 @@
 name: Format check
-on: push
+'on': push
 jobs:
   preview:
     runs-on: ubuntu-latest
