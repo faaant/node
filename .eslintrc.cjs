@@ -11,7 +11,7 @@ module.exports = {
     sourceType: 'module',
   },
   globals: {
-    Response: 'readonly'
+    Response: 'readonly',
   },
   rules: {},
 }
