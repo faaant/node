@@ -30,7 +30,6 @@
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-sonar": "^0.9.2",
     "husky": "^8.0.1",
     "prettier": "2.7.1",
