@@ -1,4 +1,6 @@
+import router from '../lib/Router'
+
 export async function onRequest(context) {
   const { request } = context
-  return new Response(JSON.stringify(request, null, '\t'))
+  return router.handle(request, new Response())
 }
